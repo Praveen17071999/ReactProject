@@ -1,0 +1,12 @@
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent; /* rgba(142, 247, 247, 0.4);*/
+    height: fit-content;
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+ 
+    

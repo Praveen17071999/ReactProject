@@ -1,0 +1,100 @@
+.intro{
+    background-color: rgb(24, 23, 23);
+    height: fit-content;
+    padding-top: 50px;
+    background-image: url('./ReactHalf.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 200px 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .intro h1{
+    font-family: Spectral;
+    color: aqua;
+    text-align: center;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 50px;
+    align-self: center;
+  }
+  
+  .intro h2{
+    font-family: Roboto;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    margin:0;
+    align-self: center;
+  }
+  
+  .introbutton button{
+    background-color: aqua;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    align-self: center;
+    transition: 0.1s;
+  }
+  
+  .introbutton button:hover{
+    
+    font: black;
+    font-size: 30px;
+    padding: 9px;
+    cursor: pointer;
+  }
+  
+  .introbutton{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: fit-content;
+    padding: 10px;
+    align-self: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .introbutton h3{
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    transition: 0.2s;
+  }
+  
+  .introbutton h3:hover{
+    color: aqua;
+    cursor: pointer;
+    font-weight: bolder;
+    
+  }
+
+  .logos{
+    align-self: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logos img{
+      width: 30px;
+      height: 30px;
+  }
+  
+  .logos:hover{
+    margin-top: 0px;
+  }
+
+  .logos img:hover{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin-top: 0px;
+  }
